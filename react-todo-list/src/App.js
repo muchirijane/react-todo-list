@@ -1,12 +1,15 @@
-
 import './App.css';
 
-const App =()=> {
-  return (
-    <div className="App">
-      <h1>React todo list</h1>
-    </div>
-  );
-}
+import TodoList from './components/TodoList';
+
+const App = () => {
+	return (
+		<div className="todo-app">
+			<h1>React todo list</h1>
+
+			<TodoList />
+		</div>
+	);
+};
 
 export default App;
