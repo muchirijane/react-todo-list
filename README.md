@@ -1,5 +1,5 @@
 # React-todo-list
-## Live Code - [Preview](https://next-crypto-tracker.vercel.app)
+## Live Code - [Preview](https://muchirijane.github.io/react-todo-list/)
 <!-- ctrl+shift+v : preview -->
 ![Project Image](src/assets/preview.png)
 
@@ -14,7 +14,7 @@ You're sections headers will be used to reference location of destination.
 
 ---
 
-## Live Code - [Preview](https://next-crypto-tracker.vercel.app)
+## Live - [Preview](https://muchirijane.github.io/react-todo-list/)
 
 ## Description
 - It was a great way to practise how to pass props from one component to another and update the value depending on the user input.
