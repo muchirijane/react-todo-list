@@ -31,20 +31,20 @@ function TodoList() {
 
   
 
-  const completedTodo = (id) => {
-    let updatedTodo = todos.map(todo => {
-      if(todo.id === id){
-        todo.completed = !todo.completed;
+  const completeTodo = id => {
+    let updatedTodos = todos.map(todo => {
+      if (todo.id === id) {
+        todo.isComplete = !todo.isComplete;
       }
       return todo;
-    })
-    setTodos(updatedTodo);
-  }
+    });
+    setTodos(updatedTodos);
+  };
 	return (
 		<>
 			<h2>What's the plan Today</h2>
 			<TodoForm onAddedTodo={addTodo}/>
-      <Todo todos={todos} updateTodo={updateTodo} completedTodo={completedTodo} removeTodo={removeTodo}/>
+      <Todo todos={todos} updateTodo={updateTodo} completeTodo={completeTodo} removeTodo={removeTodo}/>
 		</>
 	);
 }
